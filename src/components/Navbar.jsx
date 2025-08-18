@@ -26,7 +26,7 @@ const MyNavbar = () => {
             <a href="#experience" className="nav-link">Work Experience</a>
             <a href="#contact" className="nav-link">Contact</a>
           </div>
-          <a href="/cv.pdf" className="download-btn" download>Download CV</a>
+           <a href="/my-protfolio/resume.pdf" target="_blank" rel="noopener noreferrer"  className="download-btn" download>Download CV</a>
         </div>
       </div>
     </nav>

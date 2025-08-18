@@ -24,9 +24,10 @@ const About = () => (
             <p><i className="bi bi-envelope-fill"></i>Email: abhijit@example.com</p>
             <p><i className="bi bi-geo-alt-fill"></i>Adress: Odisha, India</p>
           </div>
-          <a href="/resume.pdf" download className="resume-button">
-            <i className="bi bi-file-earmark-text-fill"></i> Resume
-          </a>
+         <a href="/my-protfolio/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-button">
+           <i className="bi bi-file-earmark-text-fill"></i> Resume
+         </a>
+
         </div>
       </div>
     </div>
