@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import Typed from "typed.js";
-import profileImg from "../assets/_0020.png";
+import profileImg from "../assets/home.png";
 import ParticleBackground from "./ParticleBackground";
 
 const Home = () => {
