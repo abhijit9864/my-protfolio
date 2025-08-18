@@ -66,7 +66,7 @@ const Home = () => {
           </a>
           <div className="social-icons">
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="www.linkedin.com/in/abhijit-pradhan-512697246"
               target="_blank"
               rel="noopener noreferrer"
               title="LinkedIn"
