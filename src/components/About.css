@@ -37,6 +37,25 @@
   gap: 180px;
 }
 
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .about-image {
+    flex: none;
+    margin-bottom: 1rem;
+  }
+  .about-image img {
+    width: 200px;
+    height: 250px;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+}
+
 .about-image {
   flex: 0 0 300px;
 }

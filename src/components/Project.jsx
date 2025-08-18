@@ -93,7 +93,7 @@ const Project = () => {
     <div className="projects-container">
       <div className="projects-header">
         <h1>
-          <FaGithub className="projects-icon" /> Projects <span>Made</span> Made
+          <FaGithub className="projects-icon" /> Projects <span>Made</span>
         </h1>
         <p>Here are some of my recent projects</p>
       </div>

@@ -1,3 +1,39 @@
+@media (max-width: 900px) {
+    .education-heading {
+        font-size: 2rem !important;
+        /* flex-direction: column; */
+        gap: 0.5rem;
+    }
+    .education-cards {
+        gap: 1.2rem;
+    }
+    .education-card {
+        flex-direction: column !important;
+        min-height: unset !important;
+        align-items: center !important;
+    }
+    .education-image {
+        width: 100% !important;
+        min-width: 0 !important;
+        height: 180px !important;
+        min-height: 120px !important;
+        object-fit: cover !important;
+        border-radius: 0 !important;
+    }
+    .education-details {
+        padding: 1rem;
+        text-align: center;
+    }
+    .degree {
+        font-size: 1.2rem;
+    }
+    .institution-name {
+        font-size: 1rem;
+    }
+    .year {
+        font-size: 1rem;
+    }
+}
 #education.education-section {
     background-color: #e5ecfb !important;
     padding: 80px 0;

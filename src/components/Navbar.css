@@ -41,6 +41,7 @@
   font-weight: 800;
   background: linear-gradient(45deg, #333 30%, #ff7b00 70%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   position: relative;
@@ -51,11 +52,49 @@
   transform: scale(1.05);
 }
 
+
+/* Desktop nav menu */
 .nav-menu {
   display: flex;
   align-items: center;
   gap: 2.5rem;
-  justify-content: space-between; /* Ensures space between links and button */
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: rgba(255, 255, 255, 0.98);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    padding: 2rem;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    justify-content: center;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+  }
+  .nav-menu.active {
+    display: flex;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-logo {
+    font-size: 18px;
+  }
 }
 
 .nav-links {
@@ -187,6 +226,7 @@
     width: 100%;
     height: calc(100vh - 70px);
     background: rgba(255, 255, 255, 0.98);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     flex-direction: column;
     padding: 2rem;
