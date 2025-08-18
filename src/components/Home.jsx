@@ -74,7 +74,7 @@ const Home = () => {
               <i className="bi bi-linkedin"></i>
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/abhijit9864"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
@@ -82,7 +82,7 @@ const Home = () => {
               <i className="bi bi-github"></i>
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://x.com/AbhijitPra24750"
               target="_blank"
               rel="noopener noreferrer"
               title="X (Twitter)"

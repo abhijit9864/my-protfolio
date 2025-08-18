@@ -84,13 +84,13 @@ const Contact = () => {
             </div>
             
             <div className="social-links">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="www.linkedin.com/in/abhijit-pradhan-512697246" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FaLinkedinIn />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/abhijit9864" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FaGithub />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://x.com/AbhijitPra24750" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FaTwitter />
               </a>
             </div>

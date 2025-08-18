@@ -2,10 +2,10 @@ import React from "react";
 import "./footer.css";
 
 const socialLinks = [
-	{ href: "https://github.com/abhijit", icon: <i className="fab fa-github"></i>, label: "GitHub" },
-	{ href: "https://linkedin.com/in/abhijit", icon: <i className="fab fa-linkedin"></i>, label: "LinkedIn" },
-	{ href: "https://twitter.com/abhijit", icon: <i className="fab fa-twitter"></i>, label: "Twitter" },
-	{ href: "mailto:abhijit@email.com", icon: <i className="fas fa-envelope"></i>, label: "Email" },
+	{ href: "https://github.com/abhijit9864", icon: <i className="fab fa-github"></i>, label: "GitHub" },
+	{ href: "www.linkedin.com/in/abhijit-pradhan-512697246", icon: <i className="fab fa-linkedin"></i>, label: "LinkedIn" },
+	{ href: "https://x.com/AbhijitPra24750", icon: <i className="fab fa-twitter"></i>, label: "Twitter" },
+	{ href: "mailto:abhijitpradhan986@gmail.com", icon: <i className="fas fa-envelope"></i>, label: "Email" },
 ];
 
 const navLinks = [
