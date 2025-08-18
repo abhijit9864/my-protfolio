@@ -3,7 +3,7 @@ import "./footer.css";
 
 const socialLinks = [
 	{ href: "https://github.com/abhijit9864", icon: <i className="fab fa-github"></i>, label: "GitHub" },
-	{ href: "www.linkedin.com/in/abhijit-pradhan-512697246", icon: <i className="fab fa-linkedin"></i>, label: "LinkedIn" },
+	{ href: "https://www.linkedin.com/in/abhijit-pradhan-512697246", icon: <i className="fab fa-linkedin"></i>, label: "LinkedIn" },
 	{ href: "https://x.com/AbhijitPra24750", icon: <i className="fab fa-twitter"></i>, label: "Twitter" },
 	{ href: "mailto:abhijitpradhan986@gmail.com", icon: <i className="fas fa-envelope"></i>, label: "Email" },
 ];
