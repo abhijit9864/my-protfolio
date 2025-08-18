@@ -1,0 +1,99 @@
+/* Modal styles for SideContactButton */
+.side-contact-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(60, 0, 80, 0.45);
+  z-index: 3000;
+  animation: fadeIn 0.3s;
+}
+
+.side-contact-modal {
+  background: linear-gradient(135deg, #fff 60%, #f3e6ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(115, 3, 122, 0.25);
+  width: 350px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed;
+  bottom: 100px;
+  left: 40px;
+  z-index: 3100;
+}
+
+.side-contact-modal-header {
+  display: flex;
+  background: linear-gradient(90deg, #73037a 60%, #9c27b0 100%);
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 10px 20px;
+}
+
+.side-contact-modal-tabs {
+  display: flex;
+  border-bottom: 1px solid #e0c6f7;
+  background: #f8f2ff;
+}
+.side-contact-modal-tab {
+  flex: 1;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  color: #73037a;
+  background: none;
+  border: none;
+  outline: none;
+  transition: background 0.2s, color 0.2s;
+}
+.side-contact-modal-tab.active {
+  background: #e0c6f7;
+  color: #9c27b0;
+}
+.side-contact-modal-body {
+  flex: 1;
+  padding: 22px 20px 18px 20px;
+  overflow-y: auto;
+  background: #fff;
+}
+.side-contact-modal-close {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.side-contact-modal-messages {
+  background: #f8f2ff;
+  border-radius: 10px;
+  padding: 10px 12px;
+  min-height: 120px;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.side-contact-modal-message-input {
+  width: 100%;
+  border: 1px solid #e0c6f7;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+.side-contact-modal-send-btn {
+  background: linear-gradient(90deg, #73037a 60%, #9c27b0 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin-top: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

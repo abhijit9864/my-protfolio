@@ -1,0 +1,154 @@
+/* Arrow style for Quick Links bullets */
+.footer-link-arrow {
+  list-style: none;
+  margin-bottom: 6px;
+}
+.footer-link-arrow .arrow {
+  color: #FFD700;
+  font-size: 1.1em;
+  margin-right: 8px;
+}
+/* Footer styles */
+
+
+/* Footer styles */
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: #00d8ff;
+}
+
+.footer-center {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+.footer-icon:hover {
+  color: #00d8ff;
+}
+
+.footer-right {
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+
+.footer {
+  background: #00012b;
+  height: 339px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 60px 0 60px;
+  position: relative;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  width: 100vw;
+  margin-left: -140px;
+}
+
+.footer-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-section.center {
+  align-items: center;
+  text-align: left;
+}
+
+.footer-section.right {
+  align-items: flex-end;
+  text-align: left !important;
+}
+
+.footer-title {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 18px;
+
+}
+
+.footer-desc {
+  font-size: 1rem;
+  margin-bottom: 18px;
+  /* max-width: 260px; */
+  text-align: left;
+}
+
+.footer-links {
+  list-style: disc inside;
+  padding: 0;
+  margin: 0 0 18px 0;
+  color: #fff;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.footer-contact {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.footer-socials a {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+.footer-socials a:hover {
+  color: #00bfff;
+}
+
+
+.footer-divider-horizontal {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 44px;
+  height: 2px;
+  background: #fff2;
+  border-radius: 1px;
+}
+
+.footer-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #ffff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}

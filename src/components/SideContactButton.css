@@ -1,0 +1,49 @@
+/* Round floating button bottom right */
+.side-contact-btn {
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  z-index: 2000;
+  background: linear-gradient(135deg, #73037a, #9c27b0);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(115, 3, 122, 0.18);
+  cursor: pointer;
+  transition: box-shadow 0.3s, opacity 0.3s, background 0.3s;
+  opacity: 0;
+  outline: none;
+  font-size: 1.7rem;
+}
+.side-contact-btn.visible {
+  opacity: 1;
+}
+.side-contact-btn:hover {
+  box-shadow: 0 8px 32px rgba(115, 3, 122, 0.28);
+  background: linear-gradient(135deg, #9c27b0, #73037a);
+}
+
+.side-welcome-msg {
+  position: fixed;
+  top: 40%;
+  left: 60px;
+  z-index: 2001;
+  background: #fff;
+  color: #73037a;
+  padding: 14px 22px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(115, 3, 122, 0.13);
+  font-size: 1.1rem;
+  font-weight: 500;
+  animation: fadeInLeft 0.7s;
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
