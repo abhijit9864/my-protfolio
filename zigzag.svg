@@ -1,0 +1,4 @@
+<!-- public/zigzag.svg -->
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 0 20 L 10 0 L 30 40 L 40 20" stroke="#ff7b00" stroke-width="2" fill="none"/>
+</svg>
